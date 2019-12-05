@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Hero
+from .models import Pokemon
 
 class PokemonSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
