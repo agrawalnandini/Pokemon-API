@@ -4,4 +4,4 @@ from .models import Hero
 class PokemonSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Pokemon
-        fields = ('name', 'type')
+        fields = "__all__"
