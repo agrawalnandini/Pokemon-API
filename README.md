@@ -7,16 +7,24 @@ This is a web API that has been made as a part of the [CS-2375] - Database Manag
 ### Install Dependencies
 1. Install [pip](https://pip.pypa.io) and [virtualenv](https://virtualenv.pypa.io/)
 
-2. Create a virtualenv and activate it
+2. Create a virtualenv
 > ```sh
 > $ virtualenv --python python3 env
-> $ source env/bin/activate
 > ```
 If you're on Windows, you may have to specify the full path to your python installation directory
 > ```sh
 > $ virtualenv --python "c:\python36\python.exe" env
+> ```
+
+3. Activate the virtual environment
+> ```sh
+> $ source env/bin/activate
+> ```
+If you're on Windows, then do the following instead
+> ```sh
 > $ .\env\Scripts\activate
 > ```
+
 3. Install the requirements for the API
 > ```sh
 > $ pip install -r requirements.txt
