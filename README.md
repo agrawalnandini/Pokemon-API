@@ -25,7 +25,7 @@ If you're on Windows, then do the following instead
 > $ .\env\Scripts\activate
 > ```
 
-3. Install the requirements for the API
+4. Install the requirements for the API
 > ```sh
 > $ pip install -r requirements.txt
 > ```
